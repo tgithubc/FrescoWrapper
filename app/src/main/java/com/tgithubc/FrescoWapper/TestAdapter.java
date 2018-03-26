@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.facebook.drawee.view.SimpleDraweeView;
-import com.tgithubc.fresco_wapper.ImageLoagerWapper;
+import com.tgithubc.fresco_wapper.ImageLoaderWrapper;
 import com.tgithubc.fresco_wapper.config.ImageLoadConfig;
 import com.tgithubc.fresco_wapper.util.BlurPostprocessor;
 
@@ -41,8 +41,8 @@ public class TestAdapter extends RecyclerView.Adapter<TestAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(final ViewHolder viewHolder, int i) {
-        ImageLoagerWapper.getInstance().load(viewHolder.mBigPicView, mData[i], mBigConfig);
-        ImageLoagerWapper.getInstance().load(viewHolder.mSmallPicView, mData[i], mSmallConfig);
+        ImageLoaderWrapper.getInstance().load(viewHolder.mBigPicView, mData[i], mBigConfig);
+        ImageLoaderWrapper.getInstance().load(viewHolder.mSmallPicView, mData[i], mSmallConfig);
     }
 
     @Override

@@ -10,7 +10,7 @@ import com.tgithubc.fresco_wapper.load.impl.FrescoImageLoader;
  * Created by tiancheng :)
  */
 
-public class ImageLoagerWapper {
+public class ImageLoaderWrapper {
 
     public static Loader<SimpleDraweeView> getInstance() {
         return FrescoImageLoader.getInstance();

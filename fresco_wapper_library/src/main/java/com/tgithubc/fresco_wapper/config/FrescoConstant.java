@@ -20,6 +20,9 @@ public class FrescoConstant {
     public static final boolean DEFAULT_AUTO_PLAY_ANIMATIONS = true;
     public static final boolean DEFAULT_TAP_TO_RETRY = false;
 
+    public static final int DEFAULT_MIN_MEMORY_CACHE_SIZE = 4 * MB;
+    public static final int DEFAULT_MAX_MEMORY_CACHE_SIZE = 32 * MB;
+
     public static final Bitmap.Config DEFAULT_BITMAP_CONFIG = Bitmap.Config.ARGB_8888;
     /**
      fitXY: 不保存宽高比，填充满显示边界

@@ -4,11 +4,11 @@ wapper fresco like uil imageload
 
 Example:
 ```java
-ImageLoagerWapper.getInstance().load(view, url);
+ImageLoaderWrapper.getInstance().load(view, url);
 
-ImageLoagerWapper.getInstance().load(view, url, config);
+ImageLoaderWrapper.getInstance().load(view, url, config);
 
-ImageLoagerWapper.getInstance().load(view, url, config, new IDisplayImageListener<ImageInfo>() {
+ImageLoaderWrapper.getInstance().load(view, url, config, new IDisplayImageListener<ImageInfo>() {
             
             @Override
             public void onSuccess(ImageInfo result, Animatable animatable) {
@@ -21,7 +21,7 @@ ImageLoagerWapper.getInstance().load(view, url, config, new IDisplayImageListene
             }
         });
         
-ImageLoagerWapper.getInstance().load(url, new SimpleDownloaderListener(){
+ImageLoaderWrapper.getInstance().load(url, new SimpleDownloaderListener(){
 
             @Override
             public void onSuccess(Bitmap result) {
@@ -39,7 +39,7 @@ ImageLoagerWapper.getInstance().load(url, new SimpleDownloaderListener(){
             }
         });
         
-ImageLoagerWapper.getInstance().load(url, width, height, new SimpleDownloaderListener(){
+ImageLoaderWrapper.getInstance().load(url, width, height, new SimpleDownloaderListener(){
 
             @Override
             public void onSuccess(Bitmap result) {

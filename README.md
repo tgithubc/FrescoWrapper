@@ -1,5 +1,5 @@
-# FrescoWapper
-wapper fresco like uil imageload
+# FrescoWrapper
+wrapper fresco like uil imageload
 
 
 Example:

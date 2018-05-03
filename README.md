@@ -1,6 +1,11 @@
 # FrescoWrapper
 wrapper fresco like uil imageload
 
+##Usage
+add jcenter url
+```
+compile 'com.tgithubc:fresco_wrapper:1.0'
+```
 
 Example:
 ```java

@@ -2,10 +2,16 @@
 wrapper fresco like uil imageload
 
 ## Usage
-add jcenter url
+First add ```maven { url "https://jitpack.io" }``` to   
 ```
-compile 'com.tgithubc:fresco_wrapper:1.0'
+allprojects {
+    repositories {
+    }
+} 
 ```
+
+and add ```compile 'com.tgithubc:fresco_wrapper:1.0'```  
+
 
 Example:
 ```java

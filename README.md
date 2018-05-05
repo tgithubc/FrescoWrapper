@@ -13,7 +13,7 @@ allprojects {
 and add ```compile 'com.tgithubc:fresco_wrapper:1.0'```  
 
 
-Example:
+## Example:
 ```java
 ImageLoaderWrapper.getInstance().load(view, url);
 
